@@ -1,122 +1,87 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "almond",
+  "name": "DWAIDATTA Lab",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#005FA2",
+    "light": "#97D4FF",
+    "dark": "#00233C"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
+        "icon": "home",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Get Started",
+            "icon": "rocket",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Featured Works",
+            "icon": "star",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Works",
+        "icon": "laptop-code",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "IITM BS DS Planner Tool",
+            "icon": "/icons/iitm_bs_ds_planner.svg",
             "pages": [
-              "api-reference/introduction"
+              "works/IITM_BS_DS_Planner/making"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Experimental Graphs",
+            "icon": "/icons/experimental_graphs.svg",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "works/ExperimentalGraphs/making",
+              "works/ExperimentalGraphs/how_to_use"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+      "links": [
+        {
+          "label": "GitHub",
+          "href": "https://github.com/dwaidatta",
+          "icon": "github"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@dwaidattaLab",
+          "icon": "youtube"
+        }
+      ],
+      "primary": {
+        "type": "button",
+        "label": "dwaidatta.in",
+        "href": "https://dwaidatta.in/"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
+    },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://dwaidatta.in/",
+      "github": "https://github.com/dwaidatta",
+      "linkedin": "https://linkedin.com/in/dwaidatta",
+      "youtube": "https://www.youtube.com/@dwaidattaLab"
     }
   }
 }
