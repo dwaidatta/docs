@@ -35,18 +35,53 @@
         "icon": "laptop-code",
         "groups": [
           {
-            "group": "IITM BS DS Planner Tool",
-            "icon": "/icons/iitm_bs_ds_planner.svg",
+            "group": "Hello World",
+            "icon": "font",
             "pages": [
-              "works/IITM_BS_DS_Planner/details"
+              "works/helloworld"
             ]
           },
           {
-            "group": "Experimental Graphs",
-            "icon": "/icons/experimental_graphs.svg",
+            "group": "Software Tools",
+            "icon": "magnet",
             "pages": [
-              "works/ExperimentalGraphs/details",
-              "works/ExperimentalGraphs/how_to_use"
+              {
+                "group": "IITM BS DS Planner",
+                "expanded": false,
+                "pages": [
+                  "works/IITM_BS_DS_Planner/details"
+                ]
+              },
+              {
+                "group": "Experimental Graphs",
+                "expanded": false,
+                "pages": [
+                  "works/ExperimentalGraphs/details",
+                  "works/ExperimentalGraphs/how_to_use"                  
+                ]
+              }
+            ]
+          },
+                    {
+            "group": "Hardware Projects",
+            "icon": "car-battery",
+            "pages": [
+              {
+                "group": "PiXplora",
+                "expanded": false,
+                "pages": [
+                  "works/PiXplora/details",
+                  "works/PiXplora/making"
+                ]
+              },
+              {
+                "group": "Obstacle Avoiding Car v1",
+                "expanded": false,
+                "pages": [
+                  "works/PiXplora/details",
+                  "works/PiXplora/making"
+                ]
+              }
             ]
           }
         ]
