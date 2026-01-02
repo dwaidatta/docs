@@ -38,14 +38,14 @@
             "group": "IITM BS DS Planner Tool",
             "icon": "/icons/iitm_bs_ds_planner.svg",
             "pages": [
-              "works/IITM_BS_DS_Planner/making"
+              "works/IITM_BS_DS_Planner/details"
             ]
           },
           {
             "group": "Experimental Graphs",
             "icon": "/icons/experimental_graphs.svg",
             "pages": [
-              "works/ExperimentalGraphs/making",
+              "works/ExperimentalGraphs/details",
               "works/ExperimentalGraphs/how_to_use"
             ]
           }
