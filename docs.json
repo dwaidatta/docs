@@ -24,9 +24,7 @@
           {
             "group": "Featured Works",
             "icon": "star",
-            "pages": [
-              
-            ]
+            "pages": []
           }
         ]
       },
@@ -34,6 +32,19 @@
         "tab": "Works",
         "icon": "laptop-code",
         "groups": [
+          {
+            "group": "Top Projects",
+            "icon": "display-chart-up",
+            "pages": [
+              {
+                "group": "College Attendance System",
+                "pages": [
+                  "works/top-projects/college-attendance-system/introduction",
+                  "works/top-projects/college-attendance-system/details"
+                ]
+              }
+            ]
+          },
           {
             "group": "Hello World",
             "icon": "font",
@@ -57,12 +68,12 @@
                 "expanded": false,
                 "pages": [
                   "works/ExperimentalGraphs/details",
-                  "works/ExperimentalGraphs/how_to_use"                  
+                  "works/ExperimentalGraphs/how_to_use"
                 ]
               }
             ]
           },
-                    {
+          {
             "group": "Hardware Projects",
             "icon": "car-battery",
             "pages": [
