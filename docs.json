@@ -33,6 +33,13 @@
         "icon": "laptop-code",
         "groups": [
           {
+            "group": "Hello World",
+            "icon": "font",
+            "pages": [
+              "works/helloworld"
+            ]
+          },
+          {
             "group": "Top Projects",
             "icon": "display-chart-up",
             "pages": [
@@ -43,13 +50,6 @@
                   "works/top-projects/college-attendance-system/details"
                 ]
               }
-            ]
-          },
-          {
-            "group": "Hello World",
-            "icon": "font",
-            "pages": [
-              "works/helloworld"
             ]
           },
           {
